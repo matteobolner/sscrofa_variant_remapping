@@ -1,6 +1,6 @@
 rule all:
     input:
-        "data/final_files/remapped_and_verified_vars.csv"
+        "data/final_files/vars_sscrofa11.vcf"
 
 rule get_coords:
     input:
@@ -38,7 +38,7 @@ rule merge_results:
         "data/complete_coords/complete_coords_v10.csv"
     output:
         "data/complete_coords/merged_coords.csv",
-        "data/var_coords/unmapped_vars.csv"
+        "data/final_files/unmapped_vars.csv"
 
     script:
         "scripts/merge_results.py"
@@ -61,6 +61,25 @@ rule verify_vars:
         "data/genes_info/genes_info_v10.csv",
         "data/genes_info/genes_info_v11.csv",
     output:
-        "data/final_files/remapped_and_verified_vars.csv"
+        "data/final_files/remapped_and_verified_vars.csv",
+        "data/final_files/unsure_remappings.csv"
     script:
         "scripts/verify_vars.py"
+
+rule update_vcf:
+    input:
+        "data/vcf_files/whole_POP_all.vcf",
+        "data/complete_coords/merged_updated_coords_v11.csv"
+    output:
+        temp("data/vcf_files/remapped_vcf_no_header.vcf")
+    script:
+        "scripts/update_vcf.py"
+
+rule update_vcf_header: #needs a manually curated header
+    input:
+        vcf = "data/vcf_files/remapped_vcf_no_header.vcf",
+        header = "data/vcf_files/headers/updated_header.txt"
+    output:
+        "data/final_files/vars_sscrofa11.vcf"
+    shell:
+        "cat {input.header} {input.vcf} > {output}"

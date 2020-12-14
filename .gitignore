@@ -1,6 +1,3 @@
-data/complete_coords
-data/final_files
-data/genes_info
-data/var_coords
+data/
 .snakemake/
 scripts/__pycache__

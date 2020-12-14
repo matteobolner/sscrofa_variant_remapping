@@ -56,5 +56,7 @@ def sim_metric(df, col1, col2):
     return SequenceMatcher(None, df[col1], df[col2]).ratio()
 
 df_with_seqs['seq_similarity'] = df_with_seqs.apply(sim_metric, args = ('var_seq_v10', 'var_seq_v11'), axis=1)
-
+unsure_remappings = df_with_seqs[df_with_seqs['seq_similarity'] <= 0.5].reset_index()
+df_with_seqs = df_with_seqs[df_with_seqs['seq_similarity'] >= 0.5].reset_index()
 df_with_seqs.to_csv(snakemake.output[0], index=False)
+unsure_remappings.to_csv(snakemake.output[1], index=False)

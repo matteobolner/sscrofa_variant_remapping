@@ -1,0 +1,172 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##samtoolsVersion=1.3+htslib-1.3
+##samtoolsCommand=samtools mpileup -u -m 3 -L 100 -f /tgac/scratch/chelonis/PIG_sequences_tmp/refGenome/samtools_faidx/ref_PIG_custom_fasta_cat.txt /tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/AS01F01.merged.bam
+##reference=file:///tgac/scratch/chelonis/PIG_sequences_tmp/refGenome/samtools_faidx/ref_PIG_custom_fasta_cat.txt
+##contig=<ID=DEFB114|ENSSSCG00000001741|7|50374514|50383719,length=9206>
+##contig=<ID=IFNG|ENSSSCG00000000481|5|35374323|35379577,length=5255>
+##contig=<ID=HSD11B2|ENSSSCG00000002777|6|25351102|25357023,length=5922>
+##contig=<ID=DEFB110|ENSSSCG00000001743|7|50410268|50414899,length=4632>
+##contig=<ID=NTS|ENSSSCG00000000932|5|101077132|101088559,length=11428>
+##contig=<ID=CYP21A2|ENSSSCG00000001428|7|27722776|27725977,length=3202>
+##contig=<ID=CYB5R3|ENSSSCG00000000038|5|3610542|3628216,length=17675>
+##contig=<ID=EDN1|ENSSSCG00000001050|7|9152653|9159251,length=6599>
+##contig=<ID=TGFB3|ENSSSCG00000002385|7|105178633|105206982,length=28350>
+##contig=<ID=MYBPC1|ENSSSCG00000000866|5|86513955|86609182,length=95228>
+##contig=<ID=TNF|ENSSSCG00000001404|7|27549596|27552338,length=2743>
+##contig=<ID=HSD17B2|ENSSSCG00000002686|GL893173.1|14826|22427,length=7602>
+##contig=<ID=CYB5B|ENSSSCG00000002756|6|16469802|16505285,length=35484>
+##contig=<ID=HP|ENSSSCG00000002749|6|14643378|14648241,length=4864>
+##contig=<ID=KITLG|ENSSSCG00000000922|5|98745827|98834131,length=88305>
+##contig=<ID=IFNB1|ENSSSCG00000005163|1|225469554|225470114,length=561>
+##contig=<ID=HSD3B1|ENSSSCG00000006719|4|111555566|111564192,length=8627>
+##contig=<ID=COPA|ENSSSCG00000006386|4|98033372|98083241,length=49870>
+##contig=<ID=TGFB1|ENSSSCG00000003017|6|45127027|45139176,length=12150>
+##contig=<ID=TLR4|ENSSSCG00000005503|1|289775822|289785847,length=10026>
+##contig=<ID=CRP|ENSSSCG00000006403|4|98764964|98772729,length=7766>
+##contig=<ID=FUT1|ENSSSCG00000003141|6|49824783|49827868,length=3086>
+##contig=<ID=HTR1E|ENSSSCG00000004296|1|62186024|62186947,length=924>
+##contig=<ID=HTR1B|ENSSSCG00000004475|1|99465592|99466764,length=1173>
+##contig=<ID=RYR1|ENSSSCG00000002961|6|42840240|42960106,length=119867>
+##contig=<ID=SULT2A1|ENSSSCG00000003130|6|49108567|49119941,length=11375>
+##contig=<ID=CRH|ENSSSCG00000006215|4|74651620|74653688,length=2069>
+##contig=<ID=TYRP1|ENSSSCG00000005193|1|233661613|233679586,length=17974>
+##contig=<ID=ORM1|ENSSSCG00000005488|1|286190551|286194344,length=3794>
+##contig=<ID=CTSS|ENSSSCG00000006648|4|107666299|107691564,length=25266>
+##contig=<ID=MC4R|ENSSSCG00000004904|1|178553488|178555219,length=1732>
+##contig=<ID=HSD17B7|ENSSSCG00000006337|4|95571648|95594175,length=22528>
+##contig=<ID=CYB5A|ENSSSCG00000004875|1|165902018|165937614,length=35597>
+##contig=<ID=PHKG1|ENSSSCG00000007744|3|17074784|17082851,length=8068>
+##contig=<ID=DEFB116|ENSSSCG00000007215|17|39996662|39999076,length=2415>
+##contig=<ID=TLR9|ENSSSCG00000011436|13|37647229|37652020,length=4792>
+##contig=<ID=HSD17B3|ENSSSCG00000010937|10|29949458|30159369,length=209912>
+##contig=<ID=TGFA|ENSSSCG00000008326|3|75427114|75437891,length=10778>
+##contig=<ID=IL1B1|ENSSSCG00000008088|3|45319296|45326307,length=7012>
+##contig=<ID=KIT|ENSSSCG00000008842|8|43550236|43602062,length=51827>
+##contig=<ID=DEFB128|ENSSSCG00000007214|17|39738338|39740099,length=1762>
+##contig=<ID=CYP2E1|ENSSSCG00000010780|14|153477961|153490404,length=12444>
+##contig=<ID=IL1A|ENSSSCG00000008090|3|45453545|45466239,length=12695>
+##contig=<ID=ALB|ENSSSCG00000008948|8|73610470|73630121,length=19652>
+##contig=<ID=HTR7|ENSSSCG00000010459|14|111555789|111660175,length=104387>
+##contig=<ID=SIGLEC1|ENSSSCG00000007146|17|36328314|36349591,length=21278>
+##contig=<ID=CTSL|ENSSSCG00000010948|10|31907424|31913492,length=6069>
+##contig=<ID=ATRN|ENSSSCG00000007153|17|36381690|36619079,length=237390>
+##contig=<ID=TLR5|ENSSSCG00000010885|10|21886309|21905776,length=19468>
+##contig=<ID=CTSZ|ENSSSCG00000007522|17|66511905|66519788,length=7884>
+##contig=<ID=TLR2|ENSSSCG00000009002|8|79824541|79834592,length=10052>
+##contig=<ID=DEFB125|ENSSSCG00000007217|17|39810453|39817216,length=6764>
+##contig=<ID=DEFB123|ENSSSCG00000007226|17|39872174|39877422,length=5249>
+##contig=<ID=SRD5A2|ENSSSCG00000008521|3|114644272|114657350,length=13079>
+##contig=<ID=DEFB115|ENSSSCG00000007216|17|39835620|39837756,length=2137>
+##contig=<ID=AKR1C1|ENSSSCG00000011147|10|71833306|71847875,length=14570>
+##contig=<ID=TGFB2|ENSSSCG00000010816|10|10354223|10478457,length=124235>
+##contig=<ID=GBP1|ENSSSCG00000006924|4|139650958|139667272,length=16315>
+##contig=<ID=NDST2|ENSSSCG00000010310|14|82651858|82658370,length=6513>
+##contig=<ID=NDST3|ENSSSCG00000009115|8|112936929|113071813,length=134885>
+##contig=<ID=DEFB119|ENSSSCG00000007221|17|39921302|39931655,length=10354>
+##contig=<ID=SCD|ENSSSCG00000010554|14|120964206|120980914,length=16709>
+##contig=<ID=CYP17A1|ENSSSCG00000010591|14|123773105|123779533,length=6429>
+##contig=<ID=ASIP|ENSSSCG00000007277|17|42602601|42686658,length=84058>
+##contig=<ID=VIM|ENSSSCG00000011033|10|48227005|48235670,length=8666>
+##contig=<ID=CD163|ENSSSCG00000010787|14|153627205|153637191,length=9987>
+##contig=<ID=HTR2A|ENSSSCG00000009406|11|20896282|20956369,length=60088>
+##contig=<ID=EDNRB|ENSSSCG00000009477|11|54691946|54718001,length=26056>
+##contig=<ID=BD129|ENSSSCG00000007218|17|39721852|39725035,length=3184>
+##contig=<ID=CYB5R1|ENSSSCG00000010929|10|29284346|29289916,length=5571>
+##contig=<ID=DEFB134|ENSSSCG00000009695|14|16362946|16365270,length=2325>
+##contig=<ID=DEFB122|ENSSSCG00000030975|17|39867148|39867306,length=159>
+##contig=<ID=TLR10|ENSSSCG00000027877|8|31604732|31615025,length=10294>
+##contig=<ID=HTR6|ENSSSCG00000025244|6|72148250|72162252,length=14003>
+##contig=<ID=HTR1D|ENSSSCG00000025500|6|75189714|75190847,length=1134>
+##contig=<ID=HSD17B12|ENSSSCG00000021739|2|20061566|20211950,length=150385>
+##contig=<ID=MAOA|ENSSSCG00000012257|X|43132739|43209051,length=76313>
+##contig=<ID=FDXR|ENSSSCG00000017227|12|6362554|6373263,length=10710>
+##contig=<ID=SRD5A1|ENSSSCG00000017103|16|81668802|81694768,length=25967>
+##contig=<ID=HTR3B|ENSSSCG00000015053|9|46331476|46367854,length=36379>
+##contig=<ID=ITIH4|ENSSSCG00000011453|13|38197433|38208928,length=11496>
+##contig=<ID=CYP11A1|ENSSSCG00000025273|GL893363.2|159079|165974,length=6896>
+##contig=<ID=POR|ENSSSCG00000029988|GL894019.2|5906|54362,length=48457>
+##contig=<ID=TLR1|ENSSSCG00000026583|8|31627788|31635628,length=7841>
+##contig=<ID=MITF|ENSSSCG00000011512|13|56458931|56474630,length=15700>
+##contig=<ID=GBP5|ENSSSCG00000024973|4|139413791|139425247,length=11457>
+##contig=<ID=AR|ENSSSCG00000012371|X|60313335|60504856,length=191522>
+##contig=<ID=IFNAR2|ENSSSCG00000026201|GL895457.1|28|819,length=792>
+##contig=<ID=TTR|ENSSSCG00000023686|6|108123915|108131568,length=7654>
+##contig=<ID=SAA1|ENSSSCG00000013369|2|44024783|44025604,length=822>
+##contig=<ID=TYR|ENSSSCG00000026409|9|25164818|25214280,length=49463>
+##contig=<ID=CD151|ENSSSCG00000012840|2|144753|149372,length=4620>
+##contig=<ID=MX1|ENSSSCG00000012077|13|214988891|215011264,length=22374>
+##contig=<ID=MC1R|ENSSSCG00000020924|6|255611|256573,length=963>
+##contig=<ID=HTR1A|ENSSSCG00000016940|16|45548623|45549891,length=1269>
+##contig=<ID=TLR6|ENSSSCG00000026592|8|31641826|31660823,length=18998>
+##contig=<ID=PRKAG3|ENSSSCG00000016200|15|133800248|133807019,length=6772>
+##contig=<ID=VDR|ENSSSCG00000020864|5|81277766|81339276,length=61511>
+##contig=<ID=IL10|ENSSSCG00000015652|9|73757704|73762351,length=4648>
+##contig=<ID=HTR3A|ENSSSCG00000024497|9|46389573|46402872,length=13300>
+##contig=<ID=CAST|ENSSSCG00000014170|2|106934106|107128389,length=194284>
+##contig=<ID=DEFB1|ENSSSCG00000027555|15|43275913|43277836,length=1924>
+##contig=<ID=CYP20A1|ENSSSCG00000022432|GL896348.1|9377|13551,length=4175>
+##contig=<ID=MSTN|ENSSSCG00000016047|15|105734307|105739335,length=5029>
+##contig=<ID=HTR4|ENSSSCG00000014428|2|156451710|156556790,length=105081>
+##contig=<ID=TLR8|ENSSSCG00000012118|X|10500862|10512940,length=12079>
+##contig=<ID=CYP19A1|ENSSSCG00000030168|1|133903979|133936093,length=32115>
+##contig=<ID=HSD17B4|ENSSSCG00000028431|2|128752210|128798132,length=45923>
+##contig=<ID=AKR1E2|ENSSSCG00000026214|10|71933255|71946385,length=13131>
+##contig=<ID=MUC13|ENSSSCG00000011862|13|144997701|145020693,length=22993>
+##contig=<ID=CD209|ENSSSCG00000013579|2|71917405|71931695,length=14291>
+##contig=<ID=NR6A1|ENSSSCG00000023876|1|299188159|299395838,length=207680>
+##contig=<ID=DEFB113|ENSSSCG00000031060|7|50389682|50390801,length=1120>
+##contig=<ID=IFNA1|ENSSSCG00000031002|1|225181084|225181653,length=570>
+##contig=<ID=APOA1|ENSSSCG00000015070|9|49288615|49290401,length=1787>
+##contig=<ID=NRAMP1|ENSSSCG00000025058|15|133452329|133456736,length=4408>
+##contig=<ID=DRD2|ENSSSCG00000015048|9|45883079|45897704,length=14626>
+##contig=<ID=DEFB121|ENSSSCG00000028629|17|39907548|39909158,length=1611>
+##contig=<ID=DEFB2|ENSSSCG00000029990|15|43346318|43357071,length=10754>
+##contig=<ID=IL6|ENSSSCG00000027850|9|101081041|101085426,length=4386>
+##contig=<ID=HTR2B|ENSSSCG00000016273|15|145562110|145576395,length=14286>
+##contig=<ID=HSD11B1|ENSSSCG00000015616|GL894531.1|610|25755,length=25146>
+##contig=<ID=TLR7|ENSSSCG00000012117|X|10450659|10476655,length=25997>
+##contig=<ID=MUC4|ENSSSCG00000011850|13|143786443|143842402,length=55960>
+##contig=<ID=SLC6A3|ENSSSCG00000017121|16|85855452|85883358,length=27907>
+##contig=<ID=DEFB-104L|ENSSSCG00000030758|15|43209020|43211863,length=2844>
+##contig=<ID=DEFB124|ENSSSCG00000030733|17|39858601|39862255,length=3655>
+##contig=<ID=TLR3|ENSSSCG00000015801|15|53840783|53852536,length=11754>
+##contig=<ID=HTR3C|ENSSSCG00000024689|13|131404260|131426785,length=22526>
+##contig=<ID=STAR|ENSSSCG00000026109|15|55502052|55509990,length=7939>
+##contig=<ID=HSD17B1|ENSSSCG00000017399|12|20482054|20485181,length=3128>
+##contig=<ID=HTR2C|ENSSSCG00000012593|X|108566657|108871722,length=305066>
+##contig=<ID=HTR1F|ENSSSCG00000030227|13|178816054|178817154,length=1101>
+##contig=<ID=CTSB|ENSSSCG00000023666|14|16202844|16223503,length=20660>
+##contig=<ID=DEFB133|ENSSSCG00000031069|7|50363525|50366816,length=3292>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=IDV,Number=1,Type=Integer,Description="Maximum number of reads supporting an indel">
+##INFO=<ID=IMF,Number=1,Type=Float,Description="Maximum fraction of reads supporting an indel">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">
+##INFO=<ID=RPB,Number=1,Type=Float,Description="Mann-Whitney U test of Read Position Bias (bigger is better)">
+##INFO=<ID=MQB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality Bias (bigger is better)">
+##INFO=<ID=BQB,Number=1,Type=Float,Description="Mann-Whitney U test of Base Quality Bias (bigger is better)">
+##INFO=<ID=MQSB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality vs Strand Bias (bigger is better)">
+##INFO=<ID=SGB,Number=1,Type=Float,Description="Segregation based metric.">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=AF1,Number=1,Type=Float,Description="Max-likelihood estimate of the first ALT allele frequency (assuming HWE)">
+##INFO=<ID=AF2,Number=1,Type=Float,Description="Max-likelihood estimate of the first and second group ALT allele frequency (assuming HWE)">
+##INFO=<ID=AC1,Number=1,Type=Float,Description="Max-likelihood estimate of the first ALT allele count (no HWE assumption)">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Root-mean-square mapping quality of covering reads">
+##INFO=<ID=FQ,Number=1,Type=Float,Description="Phred probability of all samples being the same">
+##INFO=<ID=PV4,Number=4,Type=Float,Description="P-values for strand bias, baseQ bias, mapQ bias and tail distance bias">
+##INFO=<ID=G3,Number=3,Type=Float,Description="ML estimate of genotype frequencies">
+##INFO=<ID=HWE,Number=1,Type=Float,Description="Chi^2 based HWE test P-value based on G3">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Number of high-quality ref-forward , ref-reverse, alt-forward and alt-reverse bases">
+##bcftools_callVersion=1.2+htslib-1.2.1
+##bcftools_callCommand=call -v -O v -c --output /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/AS01F01.raw.vcf
+##bcftools_filterVersion=1.2+htslib-1.2.1
+##bcftools_filterCommand=filter -i 'QUAL > 29.99 &&	(DP[0]+DP[1]+DP[2]+DP[3]<40) && (DP[2]+DP[3]>3)' -O v --output /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/AS01F01.flt.vcf /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/AS01F01.raw.vcf
+##bcftools_viewVersion=1.2+htslib-1.2.1
+##bcftools_viewCommand=view -O b -o /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/AS01F01.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/AS01F01.flt.vcf
+##bcftools_mergeVersion=1.2+htslib-1.2.1
+##bcftools_mergeCommand=merge -m all -O v -o /tgac/scratch/chelonis/PIG_sequences_tmp/whole_POP/vcf/whole_POP_all.vcf /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/AS01F01.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/AS01F09.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/BB01M47.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/BK01F10.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/BK01M20.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/BK1.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/BK2.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/BK3.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/BS01F10.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/BS01F35.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/CA01F14.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/CM01F17.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/CM01F18.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/CS01F02.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/CT01F13.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/CT01M12.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/DU22M01.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/DU22M02.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/DU23M01.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/DU23M02.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/DU23M03.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/DU23M04.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/DU_Aahrus.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/DU_Hung.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/DU_WTSI.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/GO01F04.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/GO01F23.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/HA20U01.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/HA20U02.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/INDO22_Sumatra.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/INDO26_Sbarbatus.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/INDO33_Sumatra.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Jinhua_1.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Jinhua_2.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Jinhua_3.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LB01F25.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LB01F49.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LR21M03.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LR24F01.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LR24F08.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LR30F02.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LR30F03.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LR30F04.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LS01F04.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW22F01.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW22F02.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW22F03.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW22F04.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW22F06.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW22F07.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW22M04.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW22M07.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW36F01.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW36F02.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW36F03.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW36F04.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW36F05.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW36F06.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW37F01.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/LW38M02.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/MA01F18.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/MA01F20.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Mangal_Blond.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Mangal_red.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Mangal_swallow_belly.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/MS20U10.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/MS20U11.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/MS21M07.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/MS21M14.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/MW01F29.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/MW01F33.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Neijiang_1.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Neijiang_2.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Neijiang_3.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/NI01U07.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/NS01F05.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/OM001_Warthog.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Penzhou_2.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Penzhou_3.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/PI21F02.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/PI21F06.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/PI21M17.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/PI21M20.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/PI21M21.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Pietrain10.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Pietrain11.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Pietrain4.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Pietrain5.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/RE01F51.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/SCEB01F01_Scebifrons.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Sverrucosus.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/TA01F19.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/TA01M06.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/WB21F05.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/WB21F10.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/WB21M03.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/WB22F01.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/WB22F02.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/WB25U11.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/WB28F31.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/WB28M39.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/WB42M09.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/WB44U06.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/WB44U07.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Wujin_1.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Wujin_2.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Wujin_3.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Yanan_1.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Yanan_2.flt.vcf.gz /tgac/scratch/chelonis/PIG_sequences_tmp/all/vcf/Yanan_3.flt.vcf.gz
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/AS01F01.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/AS01F09.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/BB01M47.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/BK01F10.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/BK01M20.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/BK1.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/BK2.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/BK3.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/BS01F10.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/BS01F35.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/CA01F14.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/CM01F17.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/CM01F18.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/CS01F02.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/CT01F13.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/CT01M12.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/DU22M01.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/DU22M02.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/DU23M01.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/DU23M02.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/DU23M03.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/DU23M04.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/DU_Aahrus.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/DU_Hung.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/DU_WTSI.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/GO01F04.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/GO01F23.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/HA20U01.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/HA20U02.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/INDO22_Sumatra.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/INDO26_Sbarbatus.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/INDO33_Sumatra.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Jinhua_1.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Jinhua_2.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Jinhua_3.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LB01F25.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LB01F49.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LR21M03.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LR24F01.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LR24F08.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LR30F02.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LR30F03.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LR30F04.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LS01F04.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW22F01.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW22F02.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW22F03.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW22F04.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW22F06.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW22F07.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW22M04.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW22M07.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW36F01.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW36F02.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW36F03.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW36F04.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW36F05.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW36F06.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW37F01.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/LW38M02.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/MA01F18.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/MA01F20.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Mangal_Blond.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Mangal_red.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Mangal_swallow_belly.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/MS20U10.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/MS20U11.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/MS21M07.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/MS21M14.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/MW01F29.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/MW01F33.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Neijiang_1.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Neijiang_2.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Neijiang_3.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/NI01U07.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/NS01F05.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/OM001_Warthog.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Penzhou_2.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Penzhou_3.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/PI21F02.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/PI21F06.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/PI21M17.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/PI21M20.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/PI21M21.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Pietrain10.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Pietrain11.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Pietrain4.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Pietrain5.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/RE01F51.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/SCEB01F01_Scebifrons.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Sverrucosus.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/TA01F19.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/TA01M06.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/WB21F05.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/WB21F10.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/WB21M03.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/WB22F01.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/WB22F02.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/WB25U11.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/WB28F31.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/WB28M39.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/WB42M09.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/WB44U06.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/WB44U07.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Wujin_1.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Wujin_2.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Wujin_3.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Yanan_1.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Yanan_2.merged.bam	/tgac/scratch/chelonis/PIG_sequences_tmp/all/mrgd_bam_per_indvdl/Yanan_3.merged.bam
