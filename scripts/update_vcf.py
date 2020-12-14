@@ -16,4 +16,4 @@ cols_to_move = ['header', 'rel_var_pos_11']
 merged = merged[cols_to_move + [col for col in merged.columns if col not in cols_to_move]]
 merged = merged.drop(columns = 1)
 
-merged.to_csv(snakemake.output[0], index =False, sep = "\t")
+merged.to_csv(snakemake.output[0], index =False, header = False,  sep = "\t")
