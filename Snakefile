@@ -1,6 +1,8 @@
 rule all:
     input:
-        "data/final_files/vars_sscrofa11.vcf"
+        #"data/complete_coords/complete_coords_v10.csv" #output of the first part of the pipeline
+        "data/var_coords/var_coords_v11_report_duplicates.txt",
+        "data/final_files/vars_sscrofa11.vcf" #output of the second part of the snakemake pipeline
 
 rule get_coords:
     input:
@@ -13,16 +15,17 @@ rule get_coords:
         "scripts/get_coords.py"
 
 #must fix problem with perl in snakemake env first
-'''rule remap_vars:
+rule remap_vars:
     input:
         "data/var_coords/var_coords_v10.csv"
     output:
         annot = "data/var_coords/var_coords_v11.csv",
         report = "data/var_coords/var_coords_v11.report"
     shell:
-        "/usr/bin/perl /home/pelmo/remapping_whole/scripts/remap_api.pl --mode asm-asm --annotation {input} --from GCF_000003025.5 --dest GCF_000003025.6 --annot_out {output.annot} --report_out {output.report}" '''
+        "/usr/bin/perl /home/pelmo/sscrofa_variant_remapping/scripts/remap_api.pl --mode asm-asm --annotation {input} --from GCF_000003025.5 --dest GCF_000003025.6 --annot_out {output.annot} --report_out {output.report}"
 
 #the report file has more lines than variant positions due to multiple remappings; after finding the duplicates, the file was inspected and all lines with Contig630 (14) were removed to avoid problems
+#UPDATE:appartently now it works
 
 rule report_duplicates:
     input:
@@ -32,9 +35,18 @@ rule report_duplicates:
     shell:
         "cut -f 1 {input} | uniq -D > {output}"
 
+rule remove_contig630:
+    input:
+        "data/var_coords/var_coords_v11.report"
+    output:
+        "data/var_coords/var_coords_v11_nocontig630.report"
+    shell:
+        "grep -v 'Contig630' {input} > {output}"
+
+
 rule merge_results:
     input:
-        "data/var_coords/var_coords_v11.report",
+        "data/var_coords/var_coords_v11_nocontig630.report",
         "data/complete_coords/complete_coords_v10.csv"
     output:
         "data/complete_coords/merged_coords.csv",
@@ -69,7 +81,7 @@ rule verify_vars:
 rule update_vcf:
     input:
         "data/vcf_files/whole_POP_all.vcf",
-        "data/complete_coords/merged_updated_coords_v11.csv"
+        "data/final_files/remapped_and_verified_vars.csv"
     output:
         temp("data/vcf_files/remapped_vcf_no_header.vcf")
     script:
