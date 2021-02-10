@@ -22,7 +22,7 @@ rule remap_vars:
         annot = "data/var_coords/var_coords_v11.csv",
         report = "data/var_coords/var_coords_v11.report"
     shell:
-        "/usr/bin/perl /home/pelmo/sscrofa_variant_remapping/scripts/remap_api.pl --mode asm-asm --annotation {input} --from GCF_000003025.5 --dest GCF_000003025.6 --annot_out {output.annot} --report_out {output.report}"
+        "/usr/bin/perl5.30.3 /home/pelmo/data_and_pipelines/sscrofa_variant_remapping/scripts/remap_api.pl --mode asm-asm --annotation {input} --from GCF_000003025.5 --dest GCF_000003025.6 --annot_out {output.annot} --report_out {output.report}"
 
 #the report file has more lines than variant positions due to multiple remappings; after finding the duplicates, the file was inspected and all lines with Contig630 (14) were removed to avoid problems
 #UPDATE:appartently now it works

@@ -1,19 +1,20 @@
 import pandas as pd
 import json
-import requests
 import sys
 import numpy as np
-from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.util.retry import Retry
 import os
-#os.chdir("/home/pelmo/sscrofa_variant_remapping/scripts")
-from rest_functions import get_gene_seqs_v10
-from rest_functions import get_gene_seqs_v11
+
+#os.chdir("/home/pelmo/data_and_pipelines/sscrofa_variant_remapping/scripts")
+from ensembl_rest_client import EnsemblRestClient
 from difflib import SequenceMatcher
+#from rest_functions import get_gene_seqs_v10
 
 input_df = snakemake.input[0]
+#input_df = '/home/pelmo/data_and_pipelines/sscrofa_variant_remapping/data/complete_coords/merged_updated_coords_v11.csv'
 genes_info_v10 = snakemake.input[1]
+#genes_info_v10 = '/home/pelmo/data_and_pipelines/sscrofa_variant_remapping/data/genes_info/genes_info_v10.csv'
 genes_info_v11 = snakemake.input[2]
+#genes_info_v11 = '/home/pelmo/data_and_pipelines/sscrofa_variant_remapping/data/genes_info/genes_info_v11.csv'
 
 input_df = pd.read_csv(input_df)
 genes_df_v10 = pd.read_csv(genes_info_v10)
@@ -21,10 +22,9 @@ genes_df_v11 = pd.read_csv(genes_info_v11)
 
 gene_list_v10 = genes_df_v10['id'].unique().tolist()
 gene_list_v11 = genes_df_v11['id'].unique().tolist()
-
-seq_df_v10 = get_gene_seqs_v10(gene_list_v10)
-
-seq_df_v11 = get_gene_seqs_v11(gene_list_v11)
+len(gene_list_v10)
+seq_df_v10 = EnsemblRestClient().get_gene_seqs(gene_list_v10, server_version='89')
+seq_df_v11 = EnsemblRestClient().get_gene_seqs(gene_list_v11)
 
 temp_df = input_df.merge(seq_df_v10, left_on='ensembl_id_10', right_on='id')
 temp_df.rename(columns={'seq':'seq_v10'}, inplace=True)
@@ -32,7 +32,6 @@ temp_df = temp_df.drop(columns=['id'])
 df_with_seqs = temp_df.merge(seq_df_v11, left_on='ensembl_id_11', right_on='id')
 df_with_seqs.rename(columns={'seq':'seq_v11'}, inplace=True)
 df_with_seqs = df_with_seqs.drop(columns=['id'])
-
 
 df_with_seqs['slice_coords_v10_start'] = (df_with_seqs['rel_var_pos_10'] -1 -4)
 df_with_seqs['slice_coords_v10_end'] = (df_with_seqs['rel_var_pos_10'] -1 +5)

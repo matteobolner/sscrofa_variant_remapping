@@ -4,7 +4,7 @@ import requests
 import json
 
 #import custom rest functions
-from rest_functions import get_genes_info_v10
+from ensembl_rest_client import EnsemblRestClient
 
 #set the snakemake input and output variables
 starting_file = snakemake.input[0]
@@ -16,7 +16,7 @@ starting_df = pd.read_csv(starting_file, sep='|')
 starting_df = starting_df.drop_duplicates()
 ensembl_ids = starting_df['ensembl_id'].unique().tolist()
 
-genes_info_df = get_genes_info_v10(ensembl_ids)
+genes_info_df = EnsemblRestClient().get_genes_info(ensembl_ids, server_version='89')
 genes_info_df = genes_info_df.dropna(subset=['id'])
 strand_df = genes_info_df[['id','strand']]
 starting_df = starting_df.merge(strand_df, left_on='ensembl_id', right_on='id')
