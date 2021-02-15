@@ -1,0 +1,118 @@
+
+rule all:
+    input:
+        #"results/var_coords/var_coords_v11_report_duplicates.txt",
+        "results/final_files/vars_sscrofa11.vcf", #final output
+        "report/report.html" #report
+rule report:
+    input:
+        "results/final_files/vars_sscrofa11.vcf",
+        "results/complete_coords/complete_coords_v10.csv"
+
+    output:
+        "report/report.html"
+    run:
+        from snakemake.utils import report
+        with open(input[0]) as remapped_vcf:
+            n_remapped = sum(1 for l in remapped_vcf if not l.startswith("#"))
+        with open(input[1]) as input_variants:
+            n_vars = sum(1 for l in input_variants if not l.startswith("gene_name"))
+        percent = (n_remapped/n_vars)
+        percent =  '{:.2f}'.format(percent)
+        report("""
+        Remapped variants in Sus scrofa
+        =============================================================================
+        Variants were remapped from the assembly version Sscrofa10.2  to Sscrofa11.1.
+        This resulted in {n_remapped} variants being correctly remapped over {n_vars} input variants ({percent}%).
+        """, output[0])
+
+rule get_coords:
+    input:
+        "resources/starting_files/starting_data.csv"
+    output:
+        vars_file = "results/var_coords/var_coords_v10.csv",
+        complete_coords = "results/complete_coords/complete_coords_v10.csv",
+        genes_info = "results/genes_info/genes_info_v10.csv"
+    script:
+        "scripts/get_coords.py"
+
+#this step requires PERL, and should be modified to improve reproducibility (es.using Docker)
+rule remap_vars:
+    input:
+        "results/var_coords/var_coords_v10.csv"
+    output:
+        annot = "results/var_coords/var_coords_v11.csv",
+        report = "results/var_coords/var_coords_v11.report"
+    shell:
+        "/usr/bin/perl5.30.3 /home/pelmo/data_and_pipelines/sscrofa_variant_remapping/workflow/scripts/remap_api.pl --mode asm-asm --annotation {input} --from GCF_000003025.5 --dest GCF_000003025.6 --annot_out {output.annot} --report_out {output.report}"
+
+#obtain duplicate information
+rule report_duplicates:
+    input:
+        "results/var_coords/var_coords_v11.report"
+    output:
+        "results/var_coords/var_coords_v11_report_duplicates.txt"
+    shell:
+        "cut -f 1 {input} | uniq -D > {output}"
+
+#remove vars belonging to Contig630, which causes problems when querying Ensembl
+rule remove_contig630:
+    input:
+        "results/var_coords/var_coords_v11.report"
+    output:
+        "results/var_coords/var_coords_v11_nocontig630.report"
+    shell:
+        "grep -v 'Contig630' {input} > {output}"
+
+
+rule merge_results:
+    input:
+        "results/var_coords/var_coords_v11_nocontig630.report",
+        "results/complete_coords/complete_coords_v10.csv"
+    output:
+        "results/complete_coords/merged_coords.csv",
+        "results/final_files/unmapped_vars.csv"
+
+    script:
+        "scripts/merge_results.py"
+
+#after manual curation of ids
+rule update_ensembl_ids:
+    input:
+        "resources/starting_files/remapped_ids.csv",
+        "results/complete_coords/merged_coords.csv"
+    output:
+        "results/genes_info/genes_info_v11.csv",
+        "results/complete_coords/merged_updated_coords_v11.csv"
+    script:
+        "scripts/update_ids.py"
+
+
+rule verify_vars:
+    input:
+        "results/complete_coords/merged_updated_coords_v11.csv",
+        "results/genes_info/genes_info_v10.csv",
+        "results/genes_info/genes_info_v11.csv",
+    output:
+        "results/final_files/remapped_and_verified_vars.csv",
+        "results/final_files/unsure_remappings.csv"
+    script:
+        "scripts/verify_vars.py"
+
+rule update_vcf:
+    input:
+        "resources/vcf_files/whole_POP_all.vcf",
+        "results/final_files/remapped_and_verified_vars.csv"
+    output:
+        temp("results/vcf_files/remapped_vcf_no_header.vcf")
+    script:
+        "scripts/update_vcf.py"
+
+rule update_vcf_header: #needs a manually curated header
+    input:
+        vcf = "results/vcf_files/remapped_vcf_no_header.vcf",
+        header = "resources/vcf_files/headers/updated_header.txt"
+    output:
+        "results/final_files/vars_sscrofa11.vcf"
+    shell:
+        "cat {input.header} {input.vcf} > {output}"

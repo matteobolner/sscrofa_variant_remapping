@@ -1,4 +1,6 @@
-data/vcf_files
-data/
+results/
+
+
+
+scripts/__pycache__/
 .snakemake/
-scripts/__pycache__
