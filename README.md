@@ -21,6 +21,15 @@ Since the PERL API requires specific versions and libraries to run, a Docker con
 - Docker and singularity  
 
 
+**Graph of the pipeline:**  
+![alt text](https://raw.githubusercontent.com/matteobolner/sscrofa_variant_remapping/master/workflow/report/dag.svg)
+
+**Workflow report**  
+An HTML report of the final results is available in workflow/reports  
+
+
+
+
 TO DO:  
 -	~~remap api in docker container for better reproducibility~~  
 - push pipeline on workflowhub for better accessibility  
