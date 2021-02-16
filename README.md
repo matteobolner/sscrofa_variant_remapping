@@ -1,4 +1,4 @@
-# sscrofa_variant_remapping
+# Sus scrofa variant remapping
 
 Snakemake pipeline to remap a series of variant positions from the Sscrofa10.2 genome assembly to Sscrofa11.1.
 The method used for the remapping is the NCBI remap tool (https://www.ncbi.nlm.nih.gov/genome/tools/remap), which has a PERL API available (https://www.ncbi.nlm.nih.gov/genome/tools/remap/docs/api).  
