@@ -30,7 +30,7 @@ An HTML report of the final results is available in workflow/reports
 
 
 
-TO DO:  
+**TO DO:**  
 -	~~remap api in docker container for better reproducibility~~  
 - push pipeline on workflowhub for better accessibility  
 - restructure the pipeline to take as input the full .VCF file and not the single #CHROM and POS columns as was done in this project to make the pipeline easier to implement on other VCF files  
