@@ -10,7 +10,7 @@ rule report:
         "results/complete_coords/complete_coords_v10.csv"
 
     output:
-        "report/report.html"
+        "workflow/report/report.html"
     run:
         from snakemake.utils import report
         with open(input[0]) as remapped_vcf:
