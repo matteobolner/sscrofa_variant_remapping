@@ -37,14 +37,28 @@ rule get_coords:
         "scripts/get_coords.py"
 
 #this step requires PERL, and should be modified to improve reproducibility (es.using Docker)
-rule remap_vars:
+#rule remap_vars:
+#    input:
+#        "results/var_coords/var_coords_v10.csv"
+#    output:
+#        annot = "results/var_coords/var_coords_v11.csv",
+#        report = "results/var_coords/var_coords_v11.report"
+#    shell:
+#        "/usr/bin/perl5.30.3 /home/pelmo/data_and_pipelines/sscrofa_variant_remapping/workflow/scripts/remap_api.pl --mode asm-asm --annotation {input} --from GCF_000003025.5 --dest GCF_000003025.6 --annot_out {output.annot} --report_out {output.report}"
+
+
+rule remap_vars_docker:
     input:
         "results/var_coords/var_coords_v10.csv"
     output:
         annot = "results/var_coords/var_coords_v11.csv",
         report = "results/var_coords/var_coords_v11.report"
+    container:
+        "docker://matteobolner/ncbi_remap_api_docker"
     shell:
-        "/usr/bin/perl5.30.3 /home/pelmo/data_and_pipelines/sscrofa_variant_remapping/workflow/scripts/remap_api.pl --mode asm-asm --annotation {input} --from GCF_000003025.5 --dest GCF_000003025.6 --annot_out {output.annot} --report_out {output.report}"
+        "perl /home/ncbi_remap/remap_api.pl  --mode asm-asm --annotation {input} --from GCF_000003025.5 --dest GCF_000003025.6 --annot_out {output.annot} --report_out {output.report}"
+
+
 
 #obtain duplicate information
 rule report_duplicates:
