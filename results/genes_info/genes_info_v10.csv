@@ -1,0 +1,135 @@
+display_name,id,assembly_name,biotype,strand,seq_region_name,start,end,description
+HSD3B1,ENSSSCG00000006719,Sscrofa10.2,protein_coding,-1,4,111555566,111564192,3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase 3-beta-hydroxy-Delta(5)-steroid dehydrogenase Steroid Delta-isomerase [Source:UniProtKB/Swiss-Prot;Acc:Q9N119]
+MAOA,ENSSSCG00000012257,Sscrofa10.2,protein_coding,-1,X,43132739,43209051,monoamine oxidase A [Source:HGNC Symbol;Acc:HGNC:6833]
+ITIH4,ENSSSCG00000011453,Sscrofa10.2,protein_coding,1,13,38197433,38208928,inter-alpha-trypsin inhibitor heavy chain family member 4 [Source:HGNC Symbol;Acc:HGNC:6169]
+SRD5A1,ENSSSCG00000017103,Sscrofa10.2,protein_coding,-1,16,81668802,81694768,steroid 5 alpha-reductase 1 [Source:HGNC Symbol;Acc:HGNC:11284]
+CYP11A1,ENSSSCG00000025273,Sscrofa10.2,protein_coding,-1,GL893363.2,159079,165974,cytochrome P450 family 11 subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:2590]
+AR,ENSSSCG00000012371,Sscrofa10.2,protein_coding,1,X,60313335,60504856,androgen receptor [Source:HGNC Symbol;Acc:HGNC:644]
+GBP5,ENSSSCG00000024973,Sscrofa10.2,protein_coding,-1,4,139413791,139425247,guanylate binding protein 5 [Source:HGNC Symbol;Acc:HGNC:19895]
+MYBPC1,ENSSSCG00000000866,Sscrofa10.2,protein_coding,-1,5,86513955,86609182,"myosin binding protein C, slow type [Source:HGNC Symbol;Acc:HGNC:7549]"
+,ENSSSCG00000026201,Sscrofa10.2,protein_coding,1,GL895457.1,28,819,
+SAA1,ENSSSCG00000013369,Sscrofa10.2,protein_coding,-1,2,44024783,44025604,
+DEFB128,ENSSSCG00000007214,Sscrofa10.2,protein_coding,1,17,39738338,39740099,defensin beta 128 [Source:HGNC Symbol;Acc:HGNC:18106]
+MC1R,ENSSSCG00000020924,Sscrofa10.2,protein_coding,1,6,255611,256573,melanocortin 1 receptor (alpha melanocyte stimulating hormone receptor) [Source:HGNC Symbol;Acc:HGNC:6929]
+HTR3A,ENSSSCG00000024497,Sscrofa10.2,protein_coding,1,9,46389573,46402872,5-hydroxytryptamine receptor 3A [Source:HGNC Symbol;Acc:HGNC:5297]
+CAST,ENSSSCG00000014170,Sscrofa10.2,protein_coding,1,2,106934106,107128389,"Sus scrofa calpastatin (CAST), mRNA. [Source:RefSeq mRNA;Acc:NM_214067]"
+DEFB1,ENSSSCG00000027555,Sscrofa10.2,protein_coding,1,15,43275913,43277836,Beta-defensin 1  [Source:UniProtKB/Swiss-Prot;Acc:O62697]
+TLR8,ENSSSCG00000012118,Sscrofa10.2,protein_coding,1,X,10500862,10512940,toll like receptor 8 [Source:HGNC Symbol;Acc:HGNC:15632]
+,ENSSSCG00000000922,Sscrofa10.2,protein_coding,1,5,98745827,98834131,
+TLR2,ENSSSCG00000009002,Sscrofa10.2,protein_coding,-1,8,79824541,79834592,toll like receptor 2 [Source:HGNC Symbol;Acc:HGNC:11848]
+,ENSSSCG00000028431,Sscrofa10.2,protein_coding,1,2,128752210,128798132,
+HSD11B2,ENSSSCG00000002777,Sscrofa10.2,protein_coding,1,6,25351102,25357023,hydroxysteroid (11-beta) dehydrogenase 2 [Source:HGNC Symbol;Acc:HGNC:5209]
+IFNA1,ENSSSCG00000031002,Sscrofa10.2,protein_coding,1,1,225181084,225181653,"Sus scrofa interferon alpha-14 (LOC100153661), mRNA. [Source:RefSeq mRNA;Acc:NM_001130230]"
+DEFB113,ENSSSCG00000031060,Sscrofa10.2,protein_coding,-1,7,50389682,50390801,defensin beta 113 [Source:HGNC Symbol;Acc:HGNC:18094]
+DRD2,ENSSSCG00000015048,Sscrofa10.2,protein_coding,1,9,45883079,45897704,dopamine receptor D2 [Source:HGNC Symbol;Acc:HGNC:3023]
+CYB5R3,ENSSSCG00000000038,Sscrofa10.2,protein_coding,1,5,3610542,3628216,cytochrome b5 reductase 3 [Source:HGNC Symbol;Acc:HGNC:2873]
+,ENSSSCG00000004296,Sscrofa10.2,protein_coding,1,1,62186024,62186947,
+HTR1B,ENSSSCG00000004475,Sscrofa10.2,protein_coding,1,1,99465592,99466764,"5-hydroxytryptamine (serotonin) receptor 1B, G protein-coupled [Source:HGNC Symbol;Acc:HGNC:5287]"
+HSD11B1,ENSSSCG00000015616,Sscrofa10.2,protein_coding,-1,GL894531.1,610,25755,corticosteroid 11-beta-dehydrogenase isozyme 1  [Source:RefSeq peptide;Acc:NP_999413]
+SCD,ENSSSCG00000010554,Sscrofa10.2,protein_coding,1,14,120964206,120980914,stearoyl-CoA desaturase (delta-9-desaturase) [Source:HGNC Symbol;Acc:HGNC:10571]
+NTS,ENSSSCG00000000932,Sscrofa10.2,protein_coding,-1,5,101077132,101088559,neurotensin [Source:HGNC Symbol;Acc:HGNC:8038]
+HTR2A,ENSSSCG00000009406,Sscrofa10.2,protein_coding,1,11,20896282,20956369,5-hydroxytryptamine receptor 2A [Source:HGNC Symbol;Acc:HGNC:5293]
+HTR3C,ENSSSCG00000024689,Sscrofa10.2,protein_coding,1,13,131404260,131426785,5-hydroxytryptamine receptor 3C [Source:HGNC Symbol;Acc:HGNC:24003]
+EDNRB,ENSSSCG00000009477,Sscrofa10.2,protein_coding,-1,11,54691946,54718001,endothelin receptor type B [Source:HGNC Symbol;Acc:HGNC:3180]
+TLR10,ENSSSCG00000027877,Sscrofa10.2,protein_coding,-1,8,31604732,31615025,toll like receptor 10 [Source:HGNC Symbol;Acc:HGNC:15634]
+IFNB1,ENSSSCG00000005163,Sscrofa10.2,protein_coding,1,1,225469554,225470114,"interferon, beta 1, fibroblast [Source:HGNC Symbol;Acc:HGNC:5434]"
+HTR1D,ENSSSCG00000025500,Sscrofa10.2,protein_coding,1,6,75189714,75190847,"5-hydroxytryptamine (serotonin) receptor 1D, G protein-coupled [Source:HGNC Symbol;Acc:HGNC:5289]"
+,ENSSSCG00000029988,Sscrofa10.2,protein_coding,1,GL894019.2,5906,54362,
+TGFA,ENSSSCG00000008326,Sscrofa10.2,protein_coding,-1,3,75427114,75437891,transforming growth factor alpha [Source:HGNC Symbol;Acc:HGNC:11765]
+IL1B1,ENSSSCG00000008088,Sscrofa10.2,protein_coding,-1,3,45319296,45326307,Interleukin-1 beta  [Source:UniProtKB/Swiss-Prot;Acc:P26889]
+TYRP1,ENSSSCG00000005193,Sscrofa10.2,protein_coding,-1,1,233661613,233679586,tyrosinase related protein 1 [Source:HGNC Symbol;Acc:HGNC:12450]
+IL10,ENSSSCG00000015652,Sscrofa10.2,protein_coding,-1,9,73757704,73762351,interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962]
+ALB,ENSSSCG00000008948,Sscrofa10.2,protein_coding,-1,8,73610470,73630121,albumin [Source:HGNC Symbol;Acc:HGNC:399]
+HTR7,ENSSSCG00000010459,Sscrofa10.2,protein_coding,-1,14,111555789,111660175,5-hydroxytryptamine receptor 7 [Source:HGNC Symbol;Acc:HGNC:5302]
+CD209,ENSSSCG00000013579,Sscrofa10.2,protein_coding,1,2,71917405,71931695,
+CRP,ENSSSCG00000006403,Sscrofa10.2,protein_coding,1,4,98764964,98772729,
+DEFB110,ENSSSCG00000001743,Sscrofa10.2,protein_coding,-1,7,50410268,50414899,beta-defensin 110 precursor  [Source:RefSeq peptide;Acc:NP_999608]
+DEFB121,ENSSSCG00000028629,Sscrofa10.2,protein_coding,1,17,39907548,39909158,defensin beta 121 [Source:HGNC Symbol;Acc:HGNC:18101]
+DEFB1,ENSSSCG00000029990,Sscrofa10.2,protein_coding,1,15,43346318,43357071,defensin beta 1 [Source:HGNC Symbol;Acc:HGNC:2766]
+,ENSSSCG00000002686,Sscrofa10.2,protein_coding,-1,GL893173.1,14826,22427,
+GBP1,ENSSSCG00000006924,Sscrofa10.2,protein_coding,1,4,139650958,139667272,
+,ENSSSCG00000010310,Sscrofa10.2,protein_coding,-1,14,82651858,82658370,
+IL6,ENSSSCG00000027850,Sscrofa10.2,protein_coding,-1,9,101081041,101085426,
+HTR2B,ENSSSCG00000016273,Sscrofa10.2,protein_coding,-1,15,145562110,145576395,5-hydroxytryptamine receptor 2B [Source:HGNC Symbol;Acc:HGNC:5294]
+NDST3,ENSSSCG00000009115,Sscrofa10.2,protein_coding,-1,8,112936929,113071813,N-deacetylase and N-sulfotransferase 3 [Source:HGNC Symbol;Acc:HGNC:7682]
+DEFB119,ENSSSCG00000007221,Sscrofa10.2,protein_coding,1,17,39921302,39931655,
+CYP17A1,ENSSSCG00000010591,Sscrofa10.2,protein_coding,-1,14,123773105,123779533,"Steroid 17-alpha-hydroxylase/17,20 lyase  [Source:UniProtKB/Swiss-Prot;Acc:P19100]"
+ASIP,ENSSSCG00000007277,Sscrofa10.2,protein_coding,1,17,42602601,42686658,agouti signaling protein [Source:HGNC Symbol;Acc:HGNC:745]
+CYP21A2,ENSSSCG00000001428,Sscrofa10.2,protein_coding,-1,7,27722776,27725977,cytochrome P450 family 21 subfamily A member 2 [Source:HGNC Symbol;Acc:HGNC:2600]
+HSD17B1,ENSSSCG00000017399,Sscrofa10.2,protein_coding,-1,12,20482054,20485181,hydroxysteroid (17-beta) dehydrogenase 1 [Source:HGNC Symbol;Acc:HGNC:5210]
+CYB5R1,ENSSSCG00000010929,Sscrofa10.2,protein_coding,-1,10,29284346,29289916,cytochrome b5 reductase 1 [Source:HGNC Symbol;Acc:HGNC:13397]
+BD129,ENSSSCG00000007218,Sscrofa10.2,protein_coding,1,17,39721852,39725035,"Sus scrofa beta-defensin 129 (BD129), mRNA. [Source:RefSeq mRNA;Acc:NM_001129975]"
+MC4R,ENSSSCG00000004904,Sscrofa10.2,protein_coding,-1,1,178553488,178555219,melanocortin receptor 4  [Source:RefSeq peptide;Acc:NP_999338]
+DEFB116,ENSSSCG00000007215,Sscrofa10.2,protein_coding,1,17,39996662,39999076,defensin beta 116 [Source:HGNC Symbol;Acc:HGNC:18097]
+HTR6,ENSSSCG00000025244,Sscrofa10.2,protein_coding,1,6,72148250,72162252,5-hydroxytryptamine receptor 6 [Source:HGNC Symbol;Acc:HGNC:5301]
+HSD17B12,ENSSSCG00000021739,Sscrofa10.2,protein_coding,-1,2,20061566,20211950,hydroxysteroid 17-beta dehydrogenase 12 [Source:HGNC Symbol;Acc:HGNC:18646]
+FDXR,ENSSSCG00000017227,Sscrofa10.2,protein_coding,1,12,6362554,6373263,ferredoxin reductase [Source:HGNC Symbol;Acc:HGNC:3642]
+TLR1,ENSSSCG00000026583,Sscrofa10.2,protein_coding,-1,8,31627788,31635628,toll like receptor 1 [Source:HGNC Symbol;Acc:HGNC:11847]
+KIT,ENSSSCG00000008842,Sscrofa10.2,protein_coding,1,8,43550236,43602062,mast/stem cell growth factor receptor Kit precursor  [Source:RefSeq peptide;Acc:NP_001037990]
+TYR,ENSSSCG00000026409,Sscrofa10.2,protein_coding,1,9,25164818,25214280,tyrosinase precursor  [Source:RefSeq peptide;Acc:NP_001020383]
+CD151,ENSSSCG00000012840,Sscrofa10.2,protein_coding,-1,2,144753,149372,CD151 molecule (Raph blood group) [Source:HGNC Symbol;Acc:HGNC:1630]
+SULT2A1,ENSSSCG00000003130,Sscrofa10.2,protein_coding,-1,6,49108567,49119941,sulfotransferase family 2A member 1 [Source:HGNC Symbol;Acc:HGNC:11458]
+CRH,ENSSSCG00000006215,Sscrofa10.2,protein_coding,1,4,74651620,74653688,corticotropin releasing hormone [Source:HGNC Symbol;Acc:HGNC:2355]
+VDR,ENSSSCG00000020864,Sscrofa10.2,protein_coding,-1,5,81277766,81339276,Vitamin D3 receptor  [Source:UniProtKB/Swiss-Prot;Acc:A3RGC1]
+,ENSSSCG00000005488,Sscrofa10.2,protein_coding,1,1,286190551,286194344,
+CTSL,ENSSSCG00000010948,Sscrofa10.2,protein_coding,-1,10,31907424,31913492,cathepsin L [Source:HGNC Symbol;Acc:HGNC:2537]
+TLR5,ENSSSCG00000010885,Sscrofa10.2,protein_coding,-1,10,21886309,21905776,toll-like receptor 5 precursor  [Source:RefSeq peptide;Acc:NP_001116674]
+,ENSSSCG00000022432,Sscrofa10.2,protein_coding,-1,GL896348.1,9377,13551,
+CYB5A,ENSSSCG00000004875,Sscrofa10.2,protein_coding,1,1,165902018,165937614,cytochrome b5 type A [Source:HGNC Symbol;Acc:HGNC:2570]
+DEFB125,ENSSSCG00000007217,Sscrofa10.2,protein_coding,-1,17,39810453,39817216,defensin beta 125 [Source:HGNC Symbol;Acc:HGNC:18105]
+,ENSSSCG00000026214,Sscrofa10.2,protein_coding,-1,10,71933255,71946385,"1,5-anhydro-D-fructose reductase  [Source:UniProtKB/Swiss-Prot;Acc:P82125]"
+MUC13,ENSSSCG00000011862,Sscrofa10.2,protein_coding,1,13,144997701,145020693,mucin-13  [Source:RefSeq peptide;Acc:NP_001098763]
+TGFB1,ENSSSCG00000003017,Sscrofa10.2,protein_coding,-1,6,45127027,45139176,transforming growth factor beta-1 precursor  [Source:RefSeq peptide;Acc:NP_999180]
+DEFB123,ENSSSCG00000007226,Sscrofa10.2,protein_coding,-1,17,39872174,39877422,defensin beta 123 [Source:HGNC Symbol;Acc:HGNC:18103]
+,ENSSSCG00000008521,Sscrofa10.2,protein_coding,1,3,114644272,114657350,
+,ENSSSCG00000025058,Sscrofa10.2,protein_coding,1,15,133452329,133456736,natural resistance-associated macrophage protein 1  [Source:RefSeq peptide;Acc:NP_998986]
+DEFB133,ENSSSCG00000031069,Sscrofa10.2,protein_coding,-1,7,50363525,50366816,defensin beta 133 [Source:HGNC Symbol;Acc:HGNC:31331]
+TLR7,ENSSSCG00000012117,Sscrofa10.2,protein_coding,1,X,10450659,10476655,"Sus scrofa toll-like receptor 7 (TLR7), mRNA. [Source:RefSeq mRNA;Acc:NM_001097434]"
+,ENSSSCG00000011850,Sscrofa10.2,protein_coding,1,13,143786443,143842402,
+DEFB124,ENSSSCG00000030733,Sscrofa10.2,protein_coding,1,17,39858601,39862255,defensin beta 124 [Source:HGNC Symbol;Acc:HGNC:18104]
+VIM,ENSSSCG00000011033,Sscrofa10.2,protein_coding,1,10,48227005,48235670,vimentin [Source:HGNC Symbol;Acc:HGNC:12692]
+STAR,ENSSSCG00000026109,Sscrofa10.2,protein_coding,1,15,55502052,55509990,steroidogenic acute regulatory protein [Source:HGNC Symbol;Acc:HGNC:11359]
+HTR2C,ENSSSCG00000012593,Sscrofa10.2,protein_coding,1,X,108566657,108871722,5-hydroxytryptamine receptor 2C [Source:HGNC Symbol;Acc:HGNC:5295]
+HTR1F,ENSSSCG00000030227,Sscrofa10.2,protein_coding,-1,13,178816054,178817154,5-hydroxytryptamine receptor 1F [Source:HGNC Symbol;Acc:HGNC:5292]
+HSD17B7,ENSSSCG00000006337,Sscrofa10.2,protein_coding,1,4,95571648,95594175,hydroxysteroid 17-beta dehydrogenase 7 [Source:HGNC Symbol;Acc:HGNC:5215]
+PHKG1,ENSSSCG00000007744,Sscrofa10.2,protein_coding,1,3,17074784,17082851,"Sus scrofa phosphorylase kinase gamma subunit (PHGK), mRNA. [Source:RefSeq mRNA;Acc:NM_001293144]"
+DEFB114,ENSSSCG00000001741,Sscrofa10.2,protein_coding,-1,7,50374514,50383719,defensin beta 114 [Source:HGNC Symbol;Acc:HGNC:18095]
+COPA,ENSSSCG00000006386,Sscrofa10.2,protein_coding,1,4,98033372,98083241,coatomer protein complex subunit alpha [Source:HGNC Symbol;Acc:HGNC:2230]
+TLR9,ENSSSCG00000011436,Sscrofa10.2,protein_coding,1,13,37647229,37652020,Toll-like receptor 9  [Source:UniProtKB/Swiss-Prot;Acc:Q5I2M3]
+HTR3B,ENSSSCG00000015053,Sscrofa10.2,protein_coding,1,9,46331476,46367854,5-hydroxytryptamine receptor 3B [Source:HGNC Symbol;Acc:HGNC:5298]
+TLR4,ENSSSCG00000005503,Sscrofa10.2,protein_coding,1,1,289775822,289785847,"Sus scrofa toll-like receptor 4 (TLR4), transcript variant 2, mRNA. [Source:RefSeq mRNA;Acc:NM_001293316]"
+,ENSSSCG00000011512,Sscrofa10.2,protein_coding,-1,13,56458931,56474630,
+HSD17B3,ENSSSCG00000010937,Sscrofa10.2,protein_coding,1,10,29949458,30159369,hydroxysteroid (17-beta) dehydrogenase 3 [Source:HGNC Symbol;Acc:HGNC:5212]
+TTR,ENSSSCG00000023686,Sscrofa10.2,protein_coding,1,6,108123915,108131568,Transthyretin  [Source:UniProtKB/Swiss-Prot;Acc:P50390]
+MX1,ENSSSCG00000012077,Sscrofa10.2,protein_coding,-1,13,214988891,215011264,MX dynamin like GTPase 1 [Source:HGNC Symbol;Acc:HGNC:7532]
+CYP2E1,ENSSSCG00000010780,Sscrofa10.2,protein_coding,1,14,153477961,153490404,cytochrome P450 family 2 subfamily E member 1 [Source:HGNC Symbol;Acc:HGNC:2631]
+RYR1,ENSSSCG00000002961,Sscrofa10.2,protein_coding,1,6,42840240,42960106,ryanodine receptor 1 [Source:HGNC Symbol;Acc:HGNC:10483]
+HTR1A,ENSSSCG00000016940,Sscrofa10.2,protein_coding,-1,16,45548623,45549891,5-hydroxytryptamine receptor 1A [Source:HGNC Symbol;Acc:HGNC:5286]
+TLR6,ENSSSCG00000026592,Sscrofa10.2,protein_coding,-1,8,31641826,31660823,toll-like receptor 6 [Source:HGNC Symbol;Acc:HGNC:16711]
+PRKAG3,ENSSSCG00000016200,Sscrofa10.2,protein_coding,1,15,133800248,133807019,protein kinase AMP-activated non-catalytic subunit gamma 3 [Source:HGNC Symbol;Acc:HGNC:9387]
+IL1A,ENSSSCG00000008090,Sscrofa10.2,protein_coding,-1,3,45453545,45466239,interleukin 1 alpha [Source:HGNC Symbol;Acc:HGNC:5991]
+CTSS,ENSSSCG00000006648,Sscrofa10.2,protein_coding,1,4,107666299,107691564,cathepsin S [Source:HGNC Symbol;Acc:HGNC:2545]
+EDN1,ENSSSCG00000001050,Sscrofa10.2,protein_coding,1,7,9152653,9159251,endothelin 1 [Source:HGNC Symbol;Acc:HGNC:3176]
+SIGLEC1,ENSSSCG00000007146,Sscrofa10.2,processed_transcript,1,17,36328314,36349591,
+TNF,ENSSSCG00000001404,Sscrofa10.2,protein_coding,-1,7,27549596,27552338,"Tumor necrosis factor Tumor necrosis factor, membrane form Intracellular domain 1 Intracellular domain 2 C-domain 1 C-domain 2 Tumor necrosis factor, soluble form [Source:UniProtKB/Swiss-Prot;Acc:P23563]"
+ATRN,ENSSSCG00000007153,Sscrofa10.2,protein_coding,-1,17,36381690,36619079,attractin [Source:HGNC Symbol;Acc:HGNC:885]
+CYB5B,ENSSSCG00000002756,Sscrofa10.2,protein_coding,-1,6,16469802,16505285,cytochrome b5 type B (outer mitochondrial membrane) [Source:HGNC Symbol;Acc:HGNC:24374]
+HP,ENSSSCG00000002749,Sscrofa10.2,protein_coding,1,6,14643378,14648241,Haptoglobin Haptoglobin alpha chain Haptoglobin beta chain [Source:UniProtKB/Swiss-Prot;Acc:Q8SPS7]
+MSTN,ENSSSCG00000016047,Sscrofa10.2,protein_coding,-1,15,105734307,105739335,Growth/differentiation factor 8  [Source:UniProtKB/Swiss-Prot;Acc:O18831]
+HTR4,ENSSSCG00000014428,Sscrofa10.2,protein_coding,-1,2,156451710,156556790,5-hydroxytryptamine receptor 4  [Source:RefSeq peptide;Acc:NP_001001267]
+CTSZ,ENSSSCG00000007522,Sscrofa10.2,protein_coding,-1,17,66511905,66519788,cathepsin Z [Source:HGNC Symbol;Acc:HGNC:2547]
+CYP19A1,ENSSSCG00000030168,Sscrofa10.2,protein_coding,1,1,133903979,133936093,cytochrome P450 family 19 subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:2594]
+NR6A1,ENSSSCG00000023876,Sscrofa10.2,protein_coding,-1,1,299188159,299395838,nuclear receptor subfamily 6 group A member 1  [Source:RefSeq peptide;Acc:NP_001090968]
+APOA1,ENSSSCG00000015070,Sscrofa10.2,protein_coding,-1,9,49288615,49290401,apolipoprotein A-I [Source:HGNC Symbol;Acc:HGNC:600]
+DEFB115,ENSSSCG00000007216,Sscrofa10.2,protein_coding,1,17,39835620,39837756,defensin beta 115 [Source:HGNC Symbol;Acc:HGNC:18096]
+FUT1,ENSSSCG00000003141,Sscrofa10.2,protein_coding,-1,6,49824783,49827868,fucosyltransferase 1 (H blood group) [Source:HGNC Symbol;Acc:HGNC:4012]
+TGFB2,ENSSSCG00000010816,Sscrofa10.2,protein_coding,1,10,10354223,10478457,transforming growth factor beta 2 [Source:HGNC Symbol;Acc:HGNC:11768]
+,ENSSSCG00000011147,Sscrofa10.2,protein_coding,1,10,71833306,71847875,"Sus scrofa aldo-keto reductase family 1, member C1 (AKR1C1), mRNA. [Source:RefSeq mRNA;Acc:NM_001044569]"
+TGFB3,ENSSSCG00000002385,Sscrofa10.2,protein_coding,-1,7,105178633,105206982,transforming growth factor beta 3 [Source:HGNC Symbol;Acc:HGNC:11769]
+IFNG,ENSSSCG00000000481,Sscrofa10.2,protein_coding,1,5,35374323,35379577,Interferon gamma  [Source:UniProtKB/Swiss-Prot;Acc:P17803]
+SLC6A3,ENSSSCG00000017121,Sscrofa10.2,protein_coding,1,16,85855452,85883358,solute carrier family 6 member 3 [Source:HGNC Symbol;Acc:HGNC:11049]
+DEFB-104L,ENSSSCG00000030758,Sscrofa10.2,processed_transcript,1,15,43209020,43211863,
+TLR3,ENSSSCG00000015801,Sscrofa10.2,protein_coding,-1,15,53840783,53852536,toll like receptor 3 [Source:HGNC Symbol;Acc:HGNC:11849]
+SCART1,ENSSSCG00000010787,Sscrofa10.2,protein_coding,1,14,153627205,153637191,scavenger receptor family member expressed on T-cells 1 [Source:HGNC Symbol;Acc:HGNC:32411]
+CTSB,ENSSSCG00000023666,Sscrofa10.2,protein_coding,-1,14,16202844,16223503,cathepsin B [Source:HGNC Symbol;Acc:HGNC:2527]
+DEFB134,ENSSSCG00000009695,Sscrofa10.2,protein_coding,-1,14,16362946,16365270,defensin beta 134 [Source:HGNC Symbol;Acc:HGNC:32399]
