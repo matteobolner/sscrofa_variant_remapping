@@ -11,10 +11,14 @@ gene_name|ensembl_id|chr|gene_start|gene_end|var_pos
 Format for the input id update file:  
 id_10_2,id_11_1,updated_id
 
-Since the PERL API requires specific versions and libraries to run, a Docker container was built starting from the PERL Dockerfile (see https://github.com/matteobolner/ncbi_remap_api_docker). The container runs a PERL environment from which the script can be succesfully executed.
+All the generic libraries required by the pipeline are specified in the environment.yml file in workflow/environments and should be automatically fetched by snakemake.   
+
+Since the PERL API requires specific versions and libraries to run, a Docker container encapsulating it was built starting from the PERL Dockerfile (see https://github.com/matteobolner/ncbi_remap_api_docker). The container runs a PERL environment from which the script can be succesfully executed.
 
 
-
+**REQUIREMENTS TO RUN THE PIPELINE:**  
+- Snakemake  
+- Docker and singularity  
 
 
 TO DO:  
