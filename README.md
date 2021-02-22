@@ -15,6 +15,8 @@ All the generic libraries required by the pipeline are specified in the environm
 
 Since the PERL API requires specific versions and libraries to run, a Docker container encapsulating it was built starting from the PERL Dockerfile (see https://github.com/matteobolner/ncbi_remap_api_docker). The container runs a PERL environment from which the script can be succesfully executed.
 
+**WARNING:**  
+The resources and results folders present on this repository contain only the variants for one gene (DEFB114, 365 variants) to provide a showcase of the pipeline; in the thesis project the pipeline was applied to the whole 102948 variants.  
 
 **REQUIREMENTS TO RUN THE PIPELINE:**  
 - Snakemake  
