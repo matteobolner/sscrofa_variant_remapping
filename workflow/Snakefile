@@ -3,7 +3,7 @@ rule all:
     input:
         #"results/var_coords/var_coords_v11_report_duplicates.txt",
         "results/final_files/vars_sscrofa11.vcf", #final output
-        "report/report.html" #report
+        "workflow/report/report.html" #report
 rule report:
     input:
         "results/final_files/vars_sscrofa11.vcf",

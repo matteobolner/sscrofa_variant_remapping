@@ -1,3 +1,5 @@
 scripts/__pycache__/
 .snakemake/
-results/
+resources/starting_files/starting_data_complete.csv
+resources/vcf_files/whole_POP_all_complete.vcf
+
