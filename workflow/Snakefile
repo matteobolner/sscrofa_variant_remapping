@@ -26,7 +26,7 @@ rule report:
         This resulted in {n_remapped} variants being correctly remapped over {n_vars} input variants ({percent}%).
         """, output[0])
 
-rule get_coords:
+rule get_coordinates_v10:
     input:
         "resources/starting_files/starting_data.csv"
     output:
@@ -47,7 +47,7 @@ rule get_coords:
 #        "/usr/bin/perl5.30.3 /home/pelmo/data_and_pipelines/sscrofa_variant_remapping/workflow/scripts/remap_api.pl --mode asm-asm --annotation {input} --from GCF_000003025.5 --dest GCF_000003025.6 --annot_out {output.annot} --report_out {output.report}"
 
 
-rule remap_vars_docker:
+rule ncbi_remap_api_docker:
     input:
         "results/var_coords/var_coords_v10.csv"
     output:
@@ -70,7 +70,7 @@ rule report_duplicates:
         "cut -f 1 {input} | uniq -D > {output}"
 
 #remove vars belonging to Contig630, which causes problems when querying Ensembl
-rule remove_contig630:
+rule report_cleanup:
     input:
         "results/var_coords/var_coords_v11.report"
     output:
@@ -79,7 +79,7 @@ rule remove_contig630:
         "grep -v 'Contig630' {input} > {output}"
 
 
-rule merge_results:
+rule merge_original_with_updated_coordinates:
     input:
         "results/var_coords/var_coords_v11_nocontig630.report",
         "results/complete_coords/complete_coords_v10.csv"
@@ -102,7 +102,7 @@ rule update_ensembl_ids:
         "scripts/update_ids.py"
 
 
-rule verify_vars:
+rule verify_remapping:
     input:
         "results/complete_coords/merged_updated_coords_v11.csv",
         "results/genes_info/genes_info_v10.csv",
