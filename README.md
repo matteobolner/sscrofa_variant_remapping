@@ -24,7 +24,7 @@ The resources and results folders present on this repository contain only the va
 
 
 **Graph of the pipeline:**  
-![alt text](https://raw.githubusercontent.com/matteobolner/sscrofa_variant_remapping/master/workflow/report/dag.svg)
+![alt text](https://raw.githubusercontent.com/matteobolner/sscrofa_variant_remapping/247bd75af598d639d22bafbe92613706c290a65b/workflow/report/dag.svg)
 
 **Workflow report**  
 An HTML report of the final results is available in workflow/reports  
